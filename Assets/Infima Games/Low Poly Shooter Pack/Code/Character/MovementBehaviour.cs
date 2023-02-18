@@ -14,27 +14,27 @@ namespace InfimaGames.LowPolyShooterPack
         /// <summary>
         /// Awake.
         /// </summary>
-        protected virtual void Awake(){}
+        protected virtual void Awake() { }
 
         /// <summary>
         /// Start.
         /// </summary>
-        protected virtual void Start(){}
+        protected virtual void Start() { }
 
         /// <summary>
         /// Update.
         /// </summary>
-        protected virtual void Update(){}
+        protected virtual void Update() { }
 
         /// <summary>
         /// Fixed Update.
         /// </summary>
-        protected virtual void FixedUpdate(){}
+        protected virtual void FixedUpdate() { }
 
         /// <summary>
         /// Late Update.
         /// </summary>
-        protected virtual void LateUpdate(){}
+        protected virtual void LateUpdate() { }
 
         #endregion
 
@@ -44,7 +44,7 @@ namespace InfimaGames.LowPolyShooterPack
         /// Returns the last Time.time value at which the character jumped.
         /// </summary>
         public abstract float GetLastJumpTime();
-        
+
         /// <summary>
         /// Returns the value of MultiplierForward.
         /// </summary>
@@ -73,7 +73,7 @@ namespace InfimaGames.LowPolyShooterPack
         /// Returns last frame's IsGrounded value.
         /// </summary>
         public abstract bool WasGrounded();
-        
+
         /// <summary>
         /// Returns true if the character is jumping.
         /// </summary>
@@ -105,7 +105,7 @@ namespace InfimaGames.LowPolyShooterPack
         /// Tries to crouch/un-crouch.
         /// </summary>
         public abstract void TryCrouch(bool value);
-        
+
         /// <summary>
         /// Tries to toggle the crouching state. This method should also make sure to handle any automatic
         /// un-crouching that may happen when the character stops being under an object.
